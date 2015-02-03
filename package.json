@@ -1,0 +1,25 @@
+{
+  "name": "saja_server",
+  "version": "0.0.0",
+  "description": "server in node for saja",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "testscript": "./node_modules/.bin/testscript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pqhwan/saja_server.git"
+  },
+  "author": "hyun sik (pete) kim",
+  "license": "none yet",
+  "bugs": {
+    "url": "https://github.com/pqhwan/saja_server/issues"
+  },
+  "homepage": "https://github.com/pqhwan/saja_server",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "~4.11.2",
+    "jasmine-node": "~1.14.5"
+  }
+}
