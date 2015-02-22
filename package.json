@@ -4,8 +4,8 @@
   "description": "server in node for saja",
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www.js",
-    "testscript": "./node_modules/.bin/testscript"
+    "start": "node ./bin/www",
+    "debug": "DEBUG=* npm start"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,14 @@
     "url": "https://github.com/pqhwan/saja_server/issues"
   },
   "homepage": "https://github.com/pqhwan/saja_server",
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine-node": "~1.14.5"
+  },
   "dependencies": {
     "express": "~4.11.2",
-    "jasmine-node": "~1.14.5"
+    "debug": "~2.1.1",
+    "mongoose": "~3.8.23",
+    "ejs": "~2.2.4",
+    "body-parser": "~1.12.0"
   }
 }

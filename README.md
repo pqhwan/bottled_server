@@ -2,11 +2,16 @@
 
 Server for **saja**, the mobile platform for agile microtransactions.
 
+### Authors
++ Hyun Sik (Pete) Kim
++ Hong Jun (Scott) Choi
+
 ### Tech Stack
 
 + *Node.js + Express.js* for web server
 + *Mongo DB + Mongoose* for database
 + *Jasmine* for unit testing
+
 
 ### To Run
 
